@@ -1,0 +1,44 @@
+h1 {
+  color: #ae2727;
+}
+
+section img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tankeboble {
+  width: 500px;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* css til  pilen */
+#sulten {
+  position: absolute;
+  top: 30%;
+  left: -15%;
+  width: 240px;
+  max-width: 80%;
+}
+
+.computer-foto {
+  position: relative;
+}
+
+.mobile {
+  display: none;
+}
+
+/* MOBIL */
+@media (max-width: 700px) {
+  .tankeboble {
+    width: 400px;
+  }
+}

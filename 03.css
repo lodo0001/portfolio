@@ -1,0 +1,21 @@
+h1 {
+  color: #2778ae;
+  font-size: xx-large;
+}
+
+section img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* css til pilen */
+#tjek {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  text-align: center;
+  width: 200px;
+}

@@ -1,0 +1,109 @@
+.kontaktmobil img {
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+}
+
+/* css til ikonerne */
+
+#mail {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  text-align: center;
+}
+
+#mail img {
+  width: 100px;
+  transform: rotate(-12deg);
+}
+
+#insta {
+  position: absolute;
+  top: 44%;
+  left: 38%;
+  text-align: center;
+}
+
+#insta img {
+  width: 100px;
+  transform: rotate(-12deg);
+}
+
+#face {
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  text-align: center;
+}
+
+#face img {
+  width: 100px;
+  transform: rotate(-18deg);
+}
+
+/* css til teksterne */
+
+.tekst a {
+  text-decoration: none;
+  color: #421818;
+}
+
+#skolemail {
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 36%;
+  left: 42%;
+  text-align: center;
+}
+
+#instatekst {
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 45%;
+  left: 42%;
+  text-align: center;
+}
+
+#facetekst {
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 52%;
+  left: 43%;
+  text-align: center;
+}
+
+/* MOBIL */
+
+@media (max-width: 700px) {
+  .kontaktmobil img {
+    width: 418px;
+  }
+
+  #skolemail,
+  #instatekst,
+  #facetekst {
+    display: none;
+  }
+
+  #mail {
+    position: absolute;
+    top: 38%;
+    left: 26%;
+    text-align: center;
+  }
+
+  #insta {
+    position: absolute;
+    top: 44%;
+    left: 36%;
+    text-align: center;
+  }
+
+  #face {
+    position: absolute;
+    top: 48%;
+    left: 27%;
+    text-align: center;
+  }
+}

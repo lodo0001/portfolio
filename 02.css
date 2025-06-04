@@ -1,0 +1,29 @@
+h1 {
+  color: #8661bb;
+  font-size: xx-large;
+}
+
+section img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* css til pilen */
+#første {
+  position: absolute;
+  top: 20%;
+  left: -20%;
+  text-align: center;
+  width: 260px;
+}
+
+.col img {
+  width: 100%;
+  max-width: 900px;
+}
+
+@media (max-width: 700px) {
+  .grid_1-1 {
+    grid-template-columns: 1f;
+  }
+}

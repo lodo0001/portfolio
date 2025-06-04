@@ -1,0 +1,210 @@
+/* Denne css er forside.html ikke med i! */
+
+/* css til fonte */
+@font-face {
+  font-family: "inter";
+  src: url(fonts/Inter/static/Inter_18pt-Light.ttf);
+}
+
+@font-face {
+  font-family: "serif";
+  src: url(fonts/Instrument_Serif/InstrumentSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inria";
+  src: url(fonts/Inria_Serif/InriaSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "sans";
+  src: url(fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
+}
+
+/* css til h1 */
+
+h1 {
+  font-family: "sans";
+  padding-left: 2rem 2rem 2rem 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    padding-left: 1.7rem;
+    padding-right: 1rem;
+    margin-top: -3em;
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+/* css til p */
+
+p {
+  font-family: "inria";
+  font-size: large;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  word-spacing: 0.1cap;
+  line-height: 2rem;
+}
+
+/* css til main osv */
+
+main,
+section,
+.grid_1-1 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+section img {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* css til menuen på de andre sider end forsiden */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 3rem;
+  padding-left: 2em;
+}
+
+.logo {
+  font-family: "serif";
+  padding: 2rem;
+  font-size: xx-large;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav ul {
+  font-family: "inter";
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #a4a39f;
+}
+
+body {
+  background-color: #e1ccb4;
+}
+
+/* css til footer */
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "serif";
+  font-size: 20px;
+  color: #666666;
+}
+
+footer img {
+  margin-top: 5px;
+  width: 100px;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+.footer-linje {
+  height: 2px;
+  background-color: white;
+  border-color: white;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+/* footer på MOBIL */
+
+/* css til computerne på projekterne */
+.computer-foto {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 3rem;
+}
+
+/* css til grid_1-1 */
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2em;
+  align-items: center;
+}
+
+/* MOBIL */
+.computer-foto {
+  position: relative;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    padding: 1rem;
+    font-weight: bold;
+  }
+
+  .grid_1-1,
+  .grid_2-2 {
+    grid-template-columns: 1fr;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  section img {
+    padding: 1rem;
+  }
+
+  main,
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

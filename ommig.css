@@ -1,0 +1,88 @@
+/* css til overskrifter */
+#hej {
+  color: #c568a1;
+  padding-top: 4rem;
+  font-size: xx-large;
+  text-align: start;
+}
+
+h2 {
+  font-family: "sans";
+  color: #c568a1;
+  margin-bottom: 2em;
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  padding: 3rem;
+}
+
+/* css til lyserrød linjer */
+.lyserød-linje {
+  height: 2px;
+  background-color: #c568a1;
+  border-color: #c568a1;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+/* css til grid */
+
+.grid_2-2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-bottom: 5 rem;
+}
+
+#kompetencer li {
+  font-family: "inria";
+  margin-left: 10rem;
+  line-height: 1.8rem;
+  font-size: larger;
+}
+
+#experience {
+  padding-right: 12rem;
+}
+
+li::marker {
+  font-size: 0.7em; /* Gør bullet-punktet mindre */
+}
+
+/* css til om mig */
+
+@media (max-width: 700px) {
+  .pas img {
+    width: 300px;
+  }
+
+  .grid_2-2 {
+    margin: 2em;
+  }
+
+  h2 {
+    padding-left: 1em;
+    padding-right: 1rem;
+    margin-top: -1em;
+    margin-bottom: 0.5em;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  section p {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 4em;
+  }
+
+  section img {
+    width: 380px;
+  }
+
+  #kompetencer {
+  }
+}
