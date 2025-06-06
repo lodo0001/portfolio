@@ -36,4 +36,9 @@ section img {
   .tekst p {
     padding-left: 1em;
   }
+
+  .mobile a {
+    text-decoration: none;
+    color: #759d76;
+  }
 }

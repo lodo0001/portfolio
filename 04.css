@@ -68,4 +68,9 @@ h1 {
     width: 100%;
     padding: 1rem;
   }
+
+  .mobile a {
+    text-decoration: none;
+    color: #ea9b12;
+  }
 }

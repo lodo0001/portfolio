@@ -1,5 +1,8 @@
-h1 {
+#pro {
   color: #c568a1;
+  padding-top: 2rem;
+  font-size: xx-large;
+  text-align: start;
 }
 
 main img {
@@ -20,8 +23,7 @@ main img {
 .grid_2-2 {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  padding-left: 6rem;
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 
 .løb {
@@ -39,6 +41,10 @@ main img {
     grid-template-columns: 1fr;
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  .grid_2-2 {
+    margin-top: 1rem;
   }
 
   .løb {

@@ -18,14 +18,13 @@
 
 @font-face {
   font-family: "sans";
-  src: url(fonts/Instrument_Sans/static/InstrumentSans-Regular.ttf);
+  src: url(fonts/Instrument_Sans/static/InstrumentSans-SemiBold.ttf);
 }
 
 /* css til h1 */
 
 h1 {
   font-family: "sans";
-  padding-left: 2rem 2rem 2rem 2rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
@@ -33,11 +32,14 @@ h1 {
 
 @media (max-width: 700px) {
   h1 {
-    padding-left: 1.7rem;
-    padding-right: 1rem;
+    padding-left: 1rem;
     margin-top: -3em;
     font-size: 2rem;
     text-align: left;
+  }
+
+  .h1_virk {
+    padding-left: 1.7rem;
   }
 }
 
@@ -162,7 +164,6 @@ footer img:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 2em;
-  align-items: center;
 }
 
 /* MOBIL */

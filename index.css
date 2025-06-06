@@ -112,14 +112,24 @@ nav ul li a:hover {
 #projects {
   position: absolute;
   top: 20%;
-  left: 15%;
+  left: 10%;
   text-align: center;
   width: 400px;
+  transform: rotate(-3deg);
 }
 
-#projects p {
+/* #projects p {
+  padding-top: 2em;
   color: white;
   font-family: "inter";
+  transform: rotate(12deg);
+} */
+
+#projectspapir {
+  position: absolute;
+  top: 32%;
+  left: 13%;
+  width: 150px;
 }
 
 #mig {
@@ -129,9 +139,16 @@ nav ul li a:hover {
   text-align: center;
 }
 
-#mig p {
+/* #mig p {
   color: white;
   font-family: "inter";
+} */
+
+#mepapir {
+  position: absolute;
+  top: 80%;
+  left: 19%;
+  width: 120px;
 }
 
 #telefon {
@@ -139,11 +156,19 @@ nav ul li a:hover {
   top: 30%;
   right: 10%;
   text-align: center;
+  transform: rotate(5deg);
 }
 
-#telefon p {
+/* #telefon p {
   color: white;
   font-family: "inter";
+} */
+
+#SMpapir {
+  position: absolute;
+  top: 73%;
+  left: 83%;
+  width: 150px;
 }
 
 /* css til burger menu */
