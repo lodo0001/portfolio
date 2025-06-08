@@ -26,6 +26,11 @@ main img {
   margin-top: 3rem;
 }
 
+.grid_1-1 img:hover,
+.grid_2-2 img:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
 .løb {
   padding: 3rem;
 }

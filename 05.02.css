@@ -38,8 +38,12 @@ section img {
 
 /* MOBIL */
 @media (max-width: 700px) {
+  .h1_virk {
+    padding-left: 1.7rem;
+  }
+
   .tankeboble {
-    width: 400px;
+    width: 370px;
   }
 
   .mobile a {

@@ -1,5 +1,13 @@
 /* Denne css er forside.html ikke med i! */
 
+/* Dette er med til at hjælpe så man ikke kan scrolle vandret */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 /* css til fonte */
 @font-face {
   font-family: "inter";
@@ -36,10 +44,6 @@ h1 {
     margin-top: -3em;
     font-size: 2rem;
     text-align: left;
-  }
-
-  .h1_virk {
-    padding-left: 1.7rem;
   }
 }
 
@@ -126,7 +130,7 @@ footer {
   padding: 40px 20px;
   font-family: "serif";
   font-size: 20px;
-  color: #666666;
+  color: #353535;
 }
 
 footer img {
@@ -140,8 +144,8 @@ footer img:hover {
 
 .footer-linje {
   height: 2px;
-  background-color: white;
-  border-color: white;
+  background-color: rgb(255, 255, 255);
+  border-color: #000000;
   margin-bottom: 20px;
   width: 80%;
   margin-left: auto;
@@ -157,6 +161,10 @@ footer img:hover {
   margin: 0 auto;
   width: fit-content;
   padding: 3rem;
+}
+
+.computer-foto img:hover {
+  transform: translateY(-4px) scale(1.02);
 }
 
 /* css til grid_1-1 */

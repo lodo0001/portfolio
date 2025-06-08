@@ -77,7 +77,7 @@
 
 @media (max-width: 700px) {
   .kontaktmobil img {
-    width: 418px;
+    width: 360px;
   }
 
   #skolemail,
@@ -88,21 +88,21 @@
 
   #mail {
     position: absolute;
-    top: 38%;
+    top: 28%;
     left: 26%;
     text-align: center;
   }
 
   #insta {
     position: absolute;
-    top: 44%;
-    left: 36%;
+    top: 32%;
+    left: 38%;
     text-align: center;
   }
 
   #face {
     position: absolute;
-    top: 48%;
+    top: 34%;
     left: 27%;
     text-align: center;
   }

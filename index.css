@@ -7,7 +7,11 @@
   min-height: 100vh;
   z-index: -1;
   object-fit: cover;
+  background-image: url("img/fallback.png"); /* fallback-billede */
+  background-size: cover;
+  background-position: center;
 }
+
 /* z-index øverst her, kan hjælpe med at kontrollere lagene */
 
 /* css til fonte */
@@ -69,7 +73,7 @@ nav ul li a:hover {
   height: 100vh;
 }
 
-/* css til billedet af mig selv og de små tegninger */
+/* css til billedet af mig selv */
 .midten {
   position: relative;
   text-align: center;
@@ -78,6 +82,7 @@ nav ul li a:hover {
 
 .midten img {
   width: 350px;
+  height: auto;
   z-index: 2;
   padding-top: 4rem;
 }
@@ -115,6 +120,7 @@ nav ul li a:hover {
   left: 10%;
   text-align: center;
   width: 400px;
+  height: auto;
   transform: rotate(-3deg);
 }
 
@@ -130,6 +136,7 @@ nav ul li a:hover {
   top: 32%;
   left: 13%;
   width: 150px;
+  height: auto;
 }
 
 #mig {
@@ -137,6 +144,7 @@ nav ul li a:hover {
   bottom: 10%;
   left: 10%;
   text-align: center;
+  height: auto;
 }
 
 /* #mig p {
@@ -149,6 +157,7 @@ nav ul li a:hover {
   top: 80%;
   left: 19%;
   width: 120px;
+  height: auto;
 }
 
 #telefon {
@@ -157,6 +166,8 @@ nav ul li a:hover {
   right: 10%;
   text-align: center;
   transform: rotate(5deg);
+  width: 200px;
+  height: auto;
 }
 
 /* #telefon p {
@@ -169,6 +180,7 @@ nav ul li a:hover {
   top: 73%;
   left: 83%;
   width: 150px;
+  height: auto;
 }
 
 /* css til burger menu */
@@ -179,8 +191,6 @@ nav ul li a:hover {
 }
 
 header {
-  position: sticky;
-  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -286,6 +296,9 @@ nav {
 
 /* MOBIL */
 @media (max-width: 700px) {
+  #projectspapir,
+  #mepapir,
+  #SMpapir,
   #projects,
   #mig,
   #telefon {
@@ -293,6 +306,11 @@ nav {
   }
 
   .midten img {
-    margin-top: -5em;
+    margin-top: -3em;
+  }
+
+  .menu {
+    background-color: #898888;
+    opacity: 0.9;
   }
 }

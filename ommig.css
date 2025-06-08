@@ -12,15 +12,26 @@ h2 {
 }
 
 .migselv h2 {
+  margin-bottom: 0.5em;
+  padding-left: 0.6em;
+}
+
+#sem h2 {
   margin-bottom: 1em;
   padding-left: 0.6em;
+}
+
+#sem {
+  margin-bottom: 1em;
 }
 
 section img {
   display: block;
   margin: 0 auto;
-  width: 650px;
+  max-width: 80%;
+  height: auto;
   padding: 3rem;
+  box-sizing: border-box;
 }
 
 /* css til lyserrød linjer */
@@ -67,21 +78,16 @@ li::marker {
 /* css til om mig */
 
 @media (max-width: 700px) {
-  .pas img {
-    width: 300px;
-  }
-
   .grid_2-2 {
-    margin: 2em;
+    grid-template-columns: 1fr;
+    margin: 1em;
   }
 
   #hej {
     padding-top: 6rem;
-    padding-left: 1em;
   }
 
   h2 {
-    padding-left: 1em;
     padding-right: 1rem;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
@@ -89,17 +95,10 @@ li::marker {
     text-align: left;
   }
 
-  section p {
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-bottom: 4em;
-  }
-
   section img {
-    width: 380px;
+    width: 320px;
   }
-
-  .migselv h2 {
-    padding-top: 1em;
+  #education {
+    margin-right: 4em;
   }
 }

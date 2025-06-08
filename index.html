@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="index.css" />
-    <!-- <link rel="icon" href="" type="image/png"/> -->
+    <link rel="icon" href="img/faviconLD.png" type="image/png" />
     <title>Louises portfolio</title>
   </head>
 
   <body>
-    <video autoplay mutedd loop id="baggrunds-video">
+    <video autoplay muted loop id="baggrunds-video" playsinline>
+      <source src="img/video.webm" type="video/webm" />
       <source src="img/video.mp4" type="video/mp4" />
     </video>
 
@@ -39,31 +40,39 @@
       <section>
         <div class="midten">
           <a href="ommig.html">
-            <img src="img/mig.png" alt="mig" />
+            <img src="img/mig.webp" alt="mig" />
           </a>
         </div>
 
         <div class="buttons">
           <a href="projects.html">
             <div class="button" id="projects">
-              <img src="img/lukketcom.png" data-hover="img/åbencom.png" />
+              <img
+                src="img/lukketcom.webp"
+                alt="lukket com"
+                data-hover="img/åbencom.webp"
+              />
               <!-- <p>projects</p> -->
             </div>
-            <img src="img/projectspapir.png" id="projectspapir" />
+            <img src="img/projectspapir.png" alt="papir" id="projectspapir" />
           </a>
           <a href="ommig.html">
             <div class="button" id="mig">
-              <img src="img/pas.png" data-hover="img/åbenpas.png" />
+              <img src="img/pas.webp" alt="pas" data-hover="img/åbenpas.webp" />
               <!-- <p>me</p> -->
             </div>
-            <img src="img/mepapir.png" id="mepapir" />
+            <img src="img/mepapir.png" alt="papir" id="mepapir" />
           </a>
           <a href="kontakt.html">
             <div class="button" id="telefon">
-              <img src="img/telefon.png" data-hover="img/tændttele.png" />
+              <img
+                src="img/telefon.webp"
+                alt="telefon"
+                data-hover="img/tændttele.webp"
+              />
               <!-- <p>social media</p> -->
             </div>
-            <img src="img/SMpapir.png" id="SMpapir" />
+            <img src="img/SMpapir.png" alt="papir" id="SMpapir" />
           </a>
         </div>
       </section>

@@ -5,6 +5,9 @@ h1 {
 
 section img {
   width: 500px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* css til lottie */
@@ -29,12 +32,12 @@ section img {
 
 /* MOBIL */
 @media (max-width: 700px) {
-  .billede img {
-    width: 400px;
+  .grid_1-1 {
+    grid-template-columns: 1fr;
   }
 
-  .tekst p {
-    padding-left: 1em;
+  .billede img {
+    width: 400px;
   }
 
   .mobile a {
