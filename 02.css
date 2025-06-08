@@ -31,4 +31,8 @@ section img {
     text-decoration: none;
     color: #8661bb;
   }
+
+  .h1studie {
+    font-size: 165%;
+  }
 }
