@@ -1,12 +1,12 @@
 /* css til bagrunds video'en */
 #baggrunds-video {
   position: fixed;
-  right: 0;
-  bottom: 0;
   min-width: 100vw;
   min-height: 100vh;
   z-index: -1;
   object-fit: cover;
+  width: 200px;
+  height: auto;
   background-image: url("img/fallback.png"); /* fallback-billede */
   background-size: cover;
   background-position: center;
@@ -310,7 +310,11 @@ nav {
   }
 
   .menu {
-    background-color: #898888;
+    background-color: #e5c7ad;
     opacity: 0.9;
+  }
+
+  .menu a {
+    color: rgb(0, 0, 0);
   }
 }
