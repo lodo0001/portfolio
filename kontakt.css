@@ -9,7 +9,7 @@
 /* mail */
 #mail {
   position: absolute;
-  top: 36%;
+  top: 37%;
   left: 38%;
   text-align: center;
 }
@@ -22,7 +22,7 @@
 /* insta */
 #insta {
   position: absolute;
-  top: 45%;
+  top: 46%;
   left: 38%;
   text-align: center;
 }
@@ -35,7 +35,7 @@
 /* facebook */
 #face {
   position: absolute;
-  top: 51%;
+  top: 52%;
   left: 39%;
   text-align: center;
 }
@@ -55,7 +55,7 @@
 #skolemail {
   transform: rotate(-10deg);
   position: absolute;
-  top: 36%;
+  top: 37%;
   left: 42%;
   text-align: center;
 }
@@ -63,7 +63,7 @@
 #instatekst {
   transform: rotate(-10deg);
   position: absolute;
-  top: 45%;
+  top: 46%;
   left: 42%;
   text-align: center;
 }
@@ -71,7 +71,7 @@
 #facetekst {
   transform: rotate(-10deg);
   position: absolute;
-  top: 52%;
+  top: 53%;
   left: 43%;
   text-align: center;
 }
