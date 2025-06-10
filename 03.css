@@ -3,6 +3,14 @@ h1 {
   font-size: xx-large;
 }
 
+/* css til pilen */
+#tjek {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 200px;
+}
+
 section img {
   width: 100%;
   max-width: 500px;
@@ -11,16 +19,9 @@ section img {
   padding: 2rem;
 }
 
-/* css til pilen */
-#tjek {
-  position: absolute;
-  top: 30%;
-  left: 80%;
-  text-align: center;
-  width: 200px;
-}
-
+/* MOBIL */
 @media (max-width: 700px) {
+  /* design til linket */
   .mobile a {
     text-decoration: none;
     color: #2778ae;

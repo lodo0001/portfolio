@@ -28,10 +28,6 @@ section img {
   max-width: 80%;
 }
 
-.mobile {
-  display: none;
-}
-
 /* MOBIL */
 @media (max-width: 700px) {
   .h1_virk {
@@ -42,6 +38,7 @@ section img {
     width: 370px;
   }
 
+  /* design til linket */
   .mobile a {
     text-decoration: none;
     color: #ae2727;

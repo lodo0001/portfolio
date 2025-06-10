@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  background-color: #e1ccb4;
+}
+
 /* css til fonte */
 @font-face {
   font-family: "inter";
@@ -108,10 +112,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #a4a39f;
-}
-
-body {
-  background-color: #e1ccb4;
 }
 
 /* css til footer */

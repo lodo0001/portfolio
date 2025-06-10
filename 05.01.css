@@ -17,7 +17,7 @@ section img {
   height: 100%;
   display: flex;
   justify-content: center;
-  margin-top: -5em;
+  margin-top: -8em;
 }
 
 /* css til pil */
@@ -39,6 +39,11 @@ section img {
     width: 400px;
   }
 
+  .lottie {
+    margin-top: -12em;
+  }
+
+  /* design til linket */
   .mobile a {
     text-decoration: none;
     color: #759d76;
