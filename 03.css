@@ -21,6 +21,10 @@ section img {
 
 /* MOBIL */
 @media (max-width: 700px) {
+  .h1_UX {
+    font-size: 160%;
+  }
+
   /* design til linket */
   .mobile a {
     text-decoration: none;

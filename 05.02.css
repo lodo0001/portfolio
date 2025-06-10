@@ -11,6 +11,10 @@ section img {
   padding: 2rem;
 }
 
+.johnmobil {
+  display: none;
+}
+
 .tankeboble {
   width: 500px;
   max-width: 500px;
@@ -31,7 +35,16 @@ section img {
 /* MOBIL */
 @media (max-width: 700px) {
   .h1_virk {
-    padding-left: 1.7rem;
+    padding-left: 2rem;
+    font-size: 165%;
+  }
+
+  .johncom {
+    display: none;
+  }
+
+  .johnmobil {
+    display: block;
   }
 
   .tankeboble {
