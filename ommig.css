@@ -17,12 +17,12 @@ h2 {
 }
 
 #sem h2 {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   padding-left: 0.6em;
 }
 
 #sem {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 section img {
@@ -67,16 +67,11 @@ section img {
   font-size: larger;
 }
 
-#experience {
-  padding-right: 12rem;
-}
-
 li::marker {
   font-size: 0.7em; /* Gør bullet-punktet mindre */
 }
 
-/* css til om mig */
-
+/* MOBIL */
 @media (max-width: 700px) {
   .grid_2-2 {
     grid-template-columns: 1fr;

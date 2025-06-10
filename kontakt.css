@@ -6,9 +6,10 @@
 
 /* css til ikonerne */
 
+/* mail */
 #mail {
   position: absolute;
-  top: 35%;
+  top: 36%;
   left: 38%;
   text-align: center;
 }
@@ -18,9 +19,10 @@
   transform: rotate(-12deg);
 }
 
+/* insta */
 #insta {
   position: absolute;
-  top: 44%;
+  top: 45%;
   left: 38%;
   text-align: center;
 }
@@ -30,9 +32,10 @@
   transform: rotate(-12deg);
 }
 
+/* facebook */
 #face {
   position: absolute;
-  top: 50%;
+  top: 51%;
   left: 39%;
   text-align: center;
 }
@@ -95,14 +98,14 @@
 
   #insta {
     position: absolute;
-    top: 33%;
-    left: 37%;
+    top: 32%;
+    left: 36%;
     text-align: center;
   }
 
   #face {
     position: absolute;
-    top: 35%;
+    top: 34%;
     left: 27%;
     text-align: center;
   }

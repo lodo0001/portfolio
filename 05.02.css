@@ -4,7 +4,7 @@ h1 {
 
 section img {
   width: 100%;
-  max-width: 900px;
+  max-width: 800px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -26,10 +26,6 @@ section img {
   left: -15%;
   width: 240px;
   max-width: 80%;
-}
-
-.computer-foto {
-  position: relative;
 }
 
 .mobile {

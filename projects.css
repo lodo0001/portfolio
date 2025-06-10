@@ -7,32 +7,28 @@
 
 main img {
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-.grid_1-1 {
+.grid_1 {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  padding-left: 6rem;
-  margin-bottom: 8rem;
+  grid-template-columns: 1fr;
+  margin-bottom: 2rem;
 }
 
-.grid_2-2 {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  margin-top: 3rem;
-}
-
-.grid_1-1 img:hover,
-.grid_2-2 img:hover {
+.grid_1 img:hover {
   transform: translateY(-4px) scale(1.02);
 }
 
-.løb {
-  padding: 3rem;
+.løb,
+.kage,
+.UX,
+.anima,
+.studie {
+  padding: 2rem;
 }
 
 /* MOBIL */
@@ -41,15 +37,10 @@ main img {
     margin-top: -0.5em;
   }
 
-  .grid_1-1,
-  .grid_2-2 {
+  .grid_1 {
     grid-template-columns: 1fr;
     padding-left: 1em;
     padding-right: 1em;
-  }
-
-  .grid_2-2 {
-    margin-top: 1rem;
   }
 
   .løb {
@@ -58,6 +49,6 @@ main img {
 
   main img {
     width: 100%;
-    max-width: 100%;
+    max-width: 450px;
   }
 }

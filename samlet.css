@@ -79,25 +79,17 @@ section img {
 /* css til menuen på de andre sider end forsiden */
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
-  padding-top: 3rem;
-  padding-left: 2em;
+  padding-right: 3em;
 }
 
-.logo {
-  font-family: "serif";
-  padding: 2rem;
-  font-size: xx-large;
-}
-
-.logo a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+.logo img {
+  width: 100%;
+  max-width: 120px;
+  margin: 2em;
 }
 
 nav ul {
@@ -106,7 +98,6 @@ nav ul {
   gap: 4rem;
   list-style: none;
   margin: 0;
-  padding: 0 2rem;
 }
 
 nav ul li a {
@@ -150,8 +141,6 @@ footer img:hover {
   margin-right: auto;
   margin-bottom: 3em;
 }
-
-/* footer på MOBIL */
 
 /* css til computerne på projekterne */
 .computer-foto {

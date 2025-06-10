@@ -7,9 +7,6 @@
   object-fit: cover;
   width: 200px;
   height: auto;
-  background-image: url("img/fallback.png"); /* fallback-billede */
-  background-size: cover;
-  background-position: center;
 }
 
 /* z-index øverst her, kan hjælpe med at kontrollere lagene */
@@ -26,28 +23,28 @@
 }
 
 /* css til forside menuen */
+/* logo */
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  position: absolute; /* så den ligger over video */
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
-  padding-top: 3rem;
+  padding: 1rem;
 }
 
-.logo {
+.logo-s1 {
   font-family: "serif";
-  padding: 2rem;
   font-size: xx-large;
 }
 
-.logo a {
+.logo-s1 a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
+  padding-left: 2rem;
 }
 
+/* home, projects, about me og contact */
 nav ul {
   font-family: "inter";
   display: flex;
@@ -58,13 +55,13 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #a4a39f; /* valgfri hover-effekt */
+  color: #858180;
 }
 
 .main {
@@ -124,13 +121,6 @@ nav ul li a:hover {
   transform: rotate(-3deg);
 }
 
-/* #projects p {
-  padding-top: 2em;
-  color: white;
-  font-family: "inter";
-  transform: rotate(12deg);
-} */
-
 #projectspapir {
   position: absolute;
   top: 32%;
@@ -146,11 +136,6 @@ nav ul li a:hover {
   text-align: center;
   height: auto;
 }
-
-/* #mig p {
-  color: white;
-  font-family: "inter";
-} */
 
 #mepapir {
   position: absolute;
@@ -170,15 +155,10 @@ nav ul li a:hover {
   height: auto;
 }
 
-/* #telefon p {
-  color: white;
-  font-family: "inter";
-} */
-
 #SMpapir {
   position: absolute;
-  top: 73%;
-  left: 83%;
+  top: 72%;
+  left: 82%;
   width: 150px;
   height: auto;
 }
@@ -195,11 +175,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-}
-
-.logo img {
-  width: 50px;
-  height: 50px;
 }
 
 nav {
@@ -223,12 +198,13 @@ nav {
 
 .menu a {
   display: block;
-  padding: 10px;
-  color: #ffffff;
+  padding: 15px;
+  color: #000000;
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
   font-family: "inter";
+  color: rgb(0, 0, 0);
 }
 
 .menu a:hover {
@@ -239,27 +215,26 @@ nav {
   width: 30px;
   height: 20px;
   cursor: pointer;
-  padding-top: 1rem;
-  margin-right: 3rem;
+  display: none;
 }
 
 .burger .line {
   width: 100%;
   height: 1.5px;
-  background-color: #ffffff;
+  background-color: #000000;
   margin-bottom: 6px;
   transition: 0.2s linear;
 }
-.burger {
-  display: none;
-}
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
   }
+
   .burger {
     display: block;
   }
+
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
     transition: 0.2s linear;
@@ -306,7 +281,7 @@ nav {
   }
 
   .midten img {
-    margin-top: -3em;
+    margin-top: -2em;
   }
 
   .menu {
@@ -316,5 +291,15 @@ nav {
 
   .menu a {
     color: rgb(0, 0, 0);
+  }
+
+  .logo-s1 {
+    font-family: "serif";
+    font-size: xx-large;
+  }
+
+  nav {
+    margin-top: 1em;
+    padding-right: 3em;
   }
 }
